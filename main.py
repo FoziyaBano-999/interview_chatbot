@@ -79,7 +79,7 @@ selected_topics = role_topics[user_option][difficulty]
 # ------------------
 # System Prompts
 # ------------------
-system_prompt = f"You are a STRICT technical interviewer for {user_option} ({difficulty} level). TOPIC SCOPE: {selected_topics}. Rules: Ask 1 short question at a time. NO feedback. NO answers. Move to next question immediately."
+system_prompt = f"You are a STRICT technical interviewer for {user_option} ({difficulty} level). TOPIC SCOPE: {selected_topics}. Rules: Ask 1 short question at a time. NO feedback at any cost. NO answers. Move to next question immediately."
 
 # ------------------
 # Groq API Function
